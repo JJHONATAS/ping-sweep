@@ -1,4 +1,10 @@
 #!/bin/bash
+
+#Description
+
+#look at your ip address and the type of network class using an ifconfig
+# and put ./ping-sweep [myIP]
+
 if [ "$1" == ""]
 then
 echo "Usage: ./ping-sweep.sh [network]"
